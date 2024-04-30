@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "chatlord"
+version = "0.1.0"
+description = ""
+authors = ["ScrollDude <stepakinoyan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.2"
+aiogram = "^3.5.0"
+pydantic-settings = "^2.2.1"
+openai = "^1.23.6"
+ruff = "^0.4.2"
+uvicorn = "^0.29.0"
+python-multipart = "^0.0.9"
+speechrecognition = "^3.10.3"
+gunicorn = "^22.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
